@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+
+
+       <Button
+           android:id="@+id/btnRegistar"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Registrar Usuario"
+           />
+       <Button
+           android:id="@+id/btnRegistarMascota"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Registrar Mascota"
+           />
+
+       <Button
+           android:id="@+id/btnConsultar"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Consultar Usuario"
+           />
+
+       <Button
+           android:id="@+id/btnSpinner"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Consultar Spinner"
+           />
+       <Button
+           android:id="@+id/btnlistView"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Consultar List View"
+           />
+       <Button
+           android:id="@+id/btnReciclerView"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Consultar Recycler View"
+           />
+
+       <Button
+           android:id="@+id/btnReciclerViewPu"
+           android:background="@drawable/boton_inicio"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_margin="10dp"
+           android:text="Consultar Prueba"
+           />
+
+
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

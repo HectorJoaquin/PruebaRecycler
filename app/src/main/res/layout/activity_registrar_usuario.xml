@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.RegistrarUsuarioActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#537b9e">
+
+        <TextView
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registar Usuario"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:textSize="15sp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+            <EditText
+                android:id="@+id/etIdRegistar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="ID"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+         >
+
+            <EditText
+                android:id="@+id/etNombreRegistar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="Nombre"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            >
+
+            <EditText
+                android:id="@+id/etTelefonoRegistar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="5dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="Telefono"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <Button
+            android:id="@+id/btnGuardar"
+            android:textColor="#fff"
+            android:background="@drawable/boton_presionado"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GUARDAR"
+            />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

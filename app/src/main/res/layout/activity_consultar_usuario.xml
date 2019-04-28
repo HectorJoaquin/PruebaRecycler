@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.ConsultarUsuarioActivity">
+
+
+    <LinearLayout
+        android:background="#537b9e"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Consultar Usuario"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textSize="15sp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColorHint="#f2b134"
+            android:layout_marginBottom="5dp"
+
+            >
+            <EditText
+                android:id="@+id/etIdConsultar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="ID"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColorHint="#f2b134"
+            android:layout_marginBottom="5dp"
+            >
+            <EditText
+                android:id="@+id/etNombreConsultar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="Nombre"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textColorHint="#f2b134"
+            android:layout_marginBottom="5dp"
+            >
+            <EditText
+                android:id="@+id/etTelefonoConsultar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#0A384A"
+                android:background="@drawable/ediciontxt"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:hint="Telefono"/>
+        </android.support.design.widget.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/btnBuscar"
+                android:textColor="#fff"
+                android:background="@drawable/boton_presionado"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Buscar"
+                />
+
+            <Button
+                android:id="@+id/btnActualizar"
+                android:textColor="#fff"
+                android:background="@drawable/boton_presionado"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Actualizar"
+                />
+            <Button
+                android:id="@+id/btnEliminar"
+                android:textColor="#fff"
+                android:background="@drawable/boton_presionado"
+                android:layout_margin="5dp"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Eliminar"
+                />
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
